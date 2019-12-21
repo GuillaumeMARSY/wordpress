@@ -26,12 +26,14 @@ h2 {
 /*header*/
 
 .header {
-  
-      background-color: #0d7619;
-      display: flex;
-      justify-content: space-between;
-  
-  }
+  background-color: #0d7619;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+  top: 0;
+}
 
 ul, li {
   list-style-type: none;
@@ -178,6 +180,7 @@ line-height: 1.9rem;
   text-transform: uppercase;
   color: #9acf64;
   margin-bottom: 30px;
+  min-height: 64px;
 }
 
 /* section orateurs */
@@ -231,6 +234,9 @@ line-height: 1.9rem;
   color: #ffff;
   font-weight: 600;
   text-decoration: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 0px 15px 0px 15px;
 }
 /* section infos pratiques*/
 
@@ -317,19 +323,103 @@ section.video {
 
 .video-bottom-container {
   display: flex;
+  margin-right: 140px;
 }
 
 .video-list {
-  margin-left: 157px;
-  margin-right: 157px;
   margin-top: 15px;
+  display: flex;
 }
+
+h4.video-title {
+  text-align: left;
+  margin-left: 20px;
+  font-size: 2rem;
+}
+
+.video-left {
+  margin-left: 156px;
+}
+
+p.p-video-desc {
+  text-align: left;
+  margin-left: 20px;
+}
+
+img.video-icon {
+  width: 20px;
+}
+
 
 /* actu */
 
 section.actu {
-  padding: 4% 10% 13% 10%;
+  padding: 4% 15% 13% 15%;
   text-align: center;
+  background-color: #f7f6f3;
+}
+
+.article-caroussel {
+  display: flex;
+  justify-content: space-between;
+}
+
+.article-container {
+  margin-left: 40px;
+  background-color: #fff;
+  width: 290px;
+  height: auto;
+  padding-bottom: 15px;
+}
+
+img.article-img {
+  width: 100%;
+  height: auto;
+}
+
+.article.title {
+  font-size: 1rem;
+  text-align: left;
+  margin: 0px 40px 0 40px;
+}
+
+.article-descrition {
+  font-size: 1.5rem;
+  text-align: left;
+  margin: 0 40px 0 40px;
+}
+
+p.article-desc {
+  font-size: 1.7rem;
+  line-height: 2.5rem;
+}
+
+.article-button {
+  margin: 50px 0px 50px 
+}
+
+a.article-button-fill {
+  text-decoration: none;
+  border: 2px solid #cdcdcd;
+  padding: 8px 30px 8px 30px;
+  border-radius: 19px;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  color: #cdcdcd;
+}
+
+h5 {
+  font-size: 1.9rem;
+  color: #5b5252;
+  font-weight: 600;
+}
+
+.article-date {
+  text-align: left;
+  margin-left: 25px;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #cdcdcd;
 }
 
 /* responsive */
@@ -339,11 +429,72 @@ section.actu {
     font-size: 3rem;
     line-height: 3rem;
   }
+
+  .programme-container {
+    display: block;
+    justify-content: space-around;
+}
+
+.programme-right, .programme-left {
+  width: 100%;
+  margin-bottom: 60px;
+}
+
+.article-container {
+  margin-bottom: 50px;
+}
+
+.orateurs-ligne1, .orateurs-ligne2 {
+  display: block;
+  justify-content: center;
+}
+
+.orateurs {
+  margin-right: 60px;
+  width: 160px;
+  margin-bottom: 60px;
+}
+
+.orateurs-container {
+  margin: 10% 30% 10% 30%;
+}
   .infos-container {
     background-color: #9acf64;
     width: 70%;
 }
+
 hr {
   width: 95%;
+}
+
+.video-left {
+  margin-left: 0px; 
+}
+
+.video-list {
+  margin-top: 15px;
+  display: block;
+}
+
+.top-video {
+  background-color: #000;
+  width: 375px;
+  height: 250px;
+  margin-bottom: 25px;
+}
+
+.video-top-container {
+  display: block;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.video-bottom-container {
+  display: block;
+  margin-right: 140px;
+}
+
+.article-caroussel {
+  display: block;
 }
 }

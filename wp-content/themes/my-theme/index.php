@@ -40,49 +40,49 @@ if ( have_posts() ) {
     <h1 class="Section-titre"><?php the_field('section-programme-title'); ?></h1>
       <div class="programme-container">
         <div class="programme-left">
-          <div class="programme-subtitle">Les végétaux dans la chaine alimentaire</div>
+          <div class="programme-subtitle"><?php the_field('section-programme-subtitle-left'); ?></div>
           <div class="programme-infos">
               <ul class="programme-ul">
-                <li class="programme-hour">8:30</li>
-                <li class="programme-desc">Introduction par Christophe Fondation</li>
+                <li class="programme-hour"><?php the_field('section-programme-h1'); ?></li>
+                <li class="programme-desc"><?php the_field('section-programme-desc1'); ?></li>
               </ul>
               <ul class="programme-ul">
-                <li class="programme-hour">8:30</li>
-                <li class="programme-desc">Introduction par Christophe Fondation</li>
+                <li class="programme-hour"><?php the_field('section-programme-h2'); ?></li>
+                <li class="programme-desc"><?php the_field('section-programme-desc2'); ?></li>
               </ul>
               <ul class="programme-ul">
-                <li class="programme-hour">8:30</li>
-                <li class="programme-desc">Introduction par Christophe Fondation</li>
+                <li class="programme-hour"><?php the_field('section-programme-h3'); ?></li>
+                <li class="programme-desc"><?php the_field('section-programme-desc3'); ?></li>
               </ul>
               <ul class="programme-ul">
-                <li class="programme-hour">8:30</li>
-                <li class="programme-desc">Introduction par Christophe Fondation</li>
+                <li class="programme-hour"><?php the_field('section-programme-h4'); ?></li>
+                <li class="programme-desc"><?php the_field('section-programme-desc4'); ?></li>
               </ul>
               <ul class="programme-ul">
-                <li class="programme-hour">8:30</li>
-                <li class="programme-desc">Introduction par Christophe Fondation</li>
+                <li class="programme-hour"><?php the_field('section-programme-h5'); ?></li>
+                <li class="programme-desc"><?php the_field('section-programme-desc5'); ?></li>
               </ul>
 
           </div>
         </div>
         <div class="programme-right">
-          <div class="programme-subtitle">Les activités de la fondation</div>
+          <div class="programme-subtitle"><?php the_field('section-programme-subtitle-right'); ?></div>
           <div class="programme-infos">
               <ul class="programme-ul">
-                <li class="programme-hour">8:30</li>
-                <li class="programme-desc">Introduction par Christophe Fondation</li>
+                <li class="programme-hour"><?php the_field('section-programme-h6'); ?></li>
+                <li class="programme-desc"><?php the_field('section-programme-desc6'); ?></li>
               </ul>
               <ul class="programme-ul">
-                <li class="programme-hour">8:30</li>
-                <li class="programme-desc">Introduction par Christophe Fondation</li>
+                <li class="programme-hour"><?php the_field('section-programme-h7'); ?></li>
+                <li class="programme-desc"><?php the_field('section-programme-desc7'); ?></li>
               </ul>
               <ul class="programme-ul">
-                <li class="programme-hour">8:30</li>
-                <li class="programme-desc">Introduction par Christophe Fondation</li>
+                <li class="programme-hour"><?php the_field('section-programme-h8'); ?></li>
+                <li class="programme-desc"><?php the_field('section-programme-desc8'); ?></li>
               </ul>
               <ul class="programme-ul">
-                <li class="programme-hour">8:30</li>
-                <li class="programme-desc">Introduction par Christophe Fondation</li>
+                <li class="programme-hour"><?php the_field('section-programme-h9'); ?></li>
+                <li class="programme-desc"><?php the_field('section-programme-desc9'); ?></li>
               </ul>
 
           </div>
@@ -101,28 +101,28 @@ if ( have_posts() ) {
               <div class="img-cirle-container"><img class="img-cirle" src="http://localhost/Wordpress/wp-content/uploads/2019/12/portrait.jpg"></div>
               <div class="orateur-name">Wim de Vries</div>
               <div class="orateur-subtitle">Le sous titre (1)</div>
-              <div class="orateur-button"><a class="button2" href="#"><img src="/assets/img/">Lire la vidéo</a></div>
+              <div class="orateur-button"><a class="button2" href="#"><img class="video-icon" src="https://benevoles.neogeek.eu/wp-content/uploads/2019/12/play-button.svg">Lire la vidéo</a></div>
           
             </div>
             <div class="orateurs">
               <div class="img-cirle-container"><img class="img-cirle" src="http://localhost/Wordpress/wp-content/uploads/2019/12/portrait.jpg"></div>
               <div class="orateur-name">Wim de Vries</div>
               <div class="orateur-subtitle">Le sous titre (1)</div>
-              <div class="orateur-button"><a class="button2" href="#"><img src="/assets/img/">Lire la vidéo</a></div>
+              <div class="orateur-button"><a class="button2" href="#"><img class="video-icon" src="https://benevoles.neogeek.eu/wp-content/uploads/2019/12/play-button.svg">Lire la vidéo</a></div>
           
             </div>
             <div class="orateurs">
               <div class="img-cirle-container"><img class="img-cirle" src="http://localhost/Wordpress/wp-content/uploads/2019/12/portrait.jpg"></div>
               <div class="orateur-name">Wim de Vries</div>
               <div class="orateur-subtitle">Le sous titre (1)</div>
-              <div class="orateur-button"><a class="button2" href="#"><img src="/assets/img/">Lire la vidéo</a></div>
+              <div class="orateur-button"><a class="button2" href="#"><img class="video-icon" src="https://benevoles.neogeek.eu/wp-content/uploads/2019/12/play-button.svg">Lire la vidéo</a></div>
           
             </div>
             <div class="orateurs">
               <div class="img-cirle-container"><img class="img-cirle" src="http://localhost/Wordpress/wp-content/uploads/2019/12/portrait.jpg"></div>
               <div class="orateur-name">Wim de Vries</div>
               <div class="orateur-subtitle">Le sous titre (1)</div>
-              <div class="orateur-button"><a class="button2" href="#"><img src="/assets/img/">Lire la vidéo</a></div>
+              <div class="orateur-button"><a class="button2" href="#"><img class="video-icon" src="https://benevoles.neogeek.eu/wp-content/uploads/2019/12/play-button.svg">Lire la vidéo</a></div>
           
             </div>
           </div>
@@ -131,14 +131,14 @@ if ( have_posts() ) {
               <div class="img-cirle-container"><img class="img-cirle" src="http://localhost/Wordpress/wp-content/uploads/2019/12/portrait.jpg"></div>
               <div class="orateur-name">Wim de Vries</div>
               <div class="orateur-subtitle">Le sous titre (1)</div>
-              <div class="orateur-button"><a class="button2" href="#"><img src="/assets/img/">Lire la vidéo</a></div>
+              <div class="orateur-button"><a class="button2" href="#"><img class="video-icon" src="https://benevoles.neogeek.eu/wp-content/uploads/2019/12/play-button.svg">Lire la vidéo</a></div>
           
             </div>
             <div class="orateurs">
               <div class="img-cirle-container"><img class="img-cirle" src="http://localhost/Wordpress/wp-content/uploads/2019/12/portrait.jpg"></div>
               <div class="orateur-name">Wim de Vries</div>
               <div class="orateur-subtitle">Le sous titre (1)</div>
-              <div class="orateur-button"><a class="button2" href="#"><img src="/assets/img/">Lire la vidéo</a></div>
+              <div class="orateur-button"><a class="button2" href="#"><img class="video-icon" src="https://benevoles.neogeek.eu/wp-content/uploads/2019/12/play-button.svg">Lire la vidéo</a></div>
           
               </div>
             </div>
@@ -182,21 +182,29 @@ if ( have_posts() ) {
           <div class="video-left">
           <div class="video-list">
             <div class="bottom-video"></div>
-            <div class="bottom-video-desc"></div>
+            <div class="bottom-video-desc">
+              <h4 class="video-title">Construction de la valeur des légumineuses</h4>
+            <p class="p-video-desc">Marie-Benoit Magrini</p></div>
           </div>
           <div class="video-list">
             <div class="bottom-video"></div>
-            <div class="bottom-video-desc"></div>
+            <div class="bottom-video-desc">
+              <h4 class="video-title">Construction de la valeur des légumineuses</h4>
+            <p class="p-video-desc">Marie-Benoit Magrini</p></div>
           </div>
           </div>
           <div class="video-right">
           <div class="video-list">
             <div class="bottom-video"></div>
-            <div class="bottom-video-desc"></div>
+            <div class="bottom-video-desc">
+              <h4 class="video-title">Construction de la valeur des légumineuses</h4>
+            <p class="p-video-desc">Marie-Benoit Magrini</p></div>
           </div>
           <div class="video-list">
             <div class="bottom-video"></div>
-            <div class="bottom-video-desc"></div>
+            <div class="bottom-video-desc">
+              <h4 class="video-title">Construction de la valeur des légumineuses</h4>
+            <p class="p-video-desc">Marie-Benoit Magrini</p></div>
           </div>
           </div>
         </div>
@@ -206,9 +214,19 @@ if ( have_posts() ) {
       <section class="actu">
         <h1 class="Section-titre"><?php the_field('section-actu-title'); ?></h1>
         <div class="article-caroussel">
-
-
-  </div>
+        <?php $posts = new WP_Query( array( 'post_type' => 'post' ) );
+          while ( $posts->have_posts() ) {
+            $posts->the_post();
+            echo"<div class='article-container''>";
+            echo"<img class='article-img'' src='"; echo get_header_image(); echo"'>";
+            echo"<div class='article title'><h5>";echo get_the_title(); echo"</h5></div>";
+            echo"<div class='article-descrition'><p class='article-desc'>"; echo get_the_excerpt();echo"</p></div>";
+            echo"<div class='article-button'><a class='article-button-fill' href='"; echo get_the_permalink(); echo"'>Lire la suite</a></div>";
+            echo"<div class='article-date'>"; echo get_the_date(); echo"</div>";
+            echo"</div>";
+          }
+          ?>
+          </div>
       </section>
 
 <?php
